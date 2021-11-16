@@ -132,9 +132,75 @@ int main(){
 }
 
 
+//For Loop 10 Table
+#include <iostream>
+using namespace std;
+int main()
+{
+	int user;
+	int i;
+	cout << "Enter number to print table till 10: "; cin >> user;
+	for (i = 1; i <= 10; i++) {
+
+		cout << user << " * " << i << " = " << user * i;
+		cout << endl;
+	}
 
 
+	return 0;
+}
+//While loop 10 table
+#include <iostream>
+using namespace std;
+int main()
+{
+	int user;
+	int i = 1;
+	cout << "Enter number to print table till 10: "; cin >> user;
+	while (i <= 10) {
+		cout << user << " * " << i << " = " << user * i;
+		cout << endl;
+		i++;
+	}
 
+
+	return 0;
+}			    
+//For loop 12 table
+#include <iostream>
+using namespace std;
+int main()
+{
+	int user;
+	int i;
+	cout << "Enter number to print table till 10: "; cin >> user;
+	for (i = 1; i <= 12; i++) {
+
+		cout << user << " * " << i << " = " << user * i;
+		cout << endl;
+	}
+
+
+	return 0;
+}			    
+//Find the 9s
+#include <iostream>
+using namespace std;
+int main()
+{
+	int result = 0;
+	int i = 0;
+	do {
+		if (i % 9 == 0) {
+			cout << i << endl;
+			result += i;
+		}
+			i++;
+	} while (i <=200);
+	cout << "sum of all: " << result;
+
+	return 0;
+}			    
 
                
   
